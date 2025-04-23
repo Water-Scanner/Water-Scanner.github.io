@@ -148,29 +148,14 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Existing underwater SLAM systems are difficult to work effectively in texture-sparse and geometrically degraded underwater environments, resulting in intermittent tracking and sparse mapping.
-            Therefore, we present <strong>Water-DSLAM</strong>, a novel laser-aided multi-sensor fusion system that can achieve uninterrupted, fault-tolerant dense SLAM capable of continuous in-situ observation in diverse complex underwater scenarios through three key innovations:
-          </p>
-          <p>
-            Firstly, we develop <strong>Water-Scanner</strong>, a multi-sensor fusion robotic platform featuring a self-designed Underwater Binocular Structured Light (UBSL) module that enables high-precision 3D perception.
-            Secondly, we propose a fault-tolerant triple-subsystem architecture combining:
-            <br>1) <strong>DP-INS</strong> (DVL- and Pressure-aided Inertial Navigation System): fusing inertial measurement unit, doppler velocity log, and pressure sensor based Error-State Kalman Filter (ESKF) to provide high-frequency absolute odometry;
-            <br>2) <strong>Water-UBSL</strong>: a novel Iterated ESKF (IESKF)-based tight coupling between UBSL and DP-INS to mitigate UBSL’s degeneration issues;
-            <br>3) <strong>Water-Stereo</strong>: a fusion of DP-INS and stereo for accurate initialization and tracking.
-          </p>
-          <p>
-            Thirdly, we introduce a multi-modal factor graph back-end that dynamically fuses heterogeneous sensor data.
-            The proposed multi-sensor factor graph maintenance strategy efficiently addresses issues caused by asynchronous sensor frequencies and partial data loss.
-          </p>
-          <p>
-            Experimental results demonstrate Water-DSLAM achieves superior robustness (0.039&nbsp;m trajectory RMSE and 100% continuity ratio during partial sensor dropout) and dense mapping (6922.4 points/m<sup>3</sup> in 750&nbsp;m<sup>3</sup> water volume, approximately 10 times denser than existing methods) in various challenging environments, including pools, dark underwater scenes, 16-meter-deep sinkholes, and field rivers.
-            This work represents the first complete solution for long-duration underwater robotic dense in-situ observation.
+            Existing underwater SLAM systems are difficult to work effectively in texture-sparse and geometrically degraded underwater environments, resulting in intermittent tracking and sparse mapping. Therefore, we present <strong>Water-DSLAM</strong>, a novel laser-aided multi-sensor fusion system that can achieve uninterrupted, fault-tolerant dense SLAM capable of continuous in-situ observation in diverse complex underwater scenarios through three key innovations: Firstly, we develop <strong>Water-Scanner</strong>, a multi-sensor fusion robotic platform featuring a self-designed Underwater Binocular Structured Light (UBSL) module that enables high-precision 3D perception. Secondly, we propose a fault-tolerant triple-subsystem architecture combining: 1) <strong>DP-INS</strong> (DVL- and Pressure-aided Inertial Navigation System): fusing inertial measurement unit, doppler velocity log, and pressure sensor based Error-State Kalman Filter (ESKF) to provide high-frequency absolute odometry; 2) <strong>Water-UBSL</strong>: a novel Iterated ESKF (IESKF)-based tight coupling between UBSL and DP-INS to mitigate UBSL’s degeneration issues; 3) <strong>Water-Stereo</strong>: a fusion of DP-INS and stereo for accurate initialization and tracking. Thirdly, we introduce a multi-modal factor graph back-end that dynamically fuses heterogeneous sensor data. The proposed multi-sensor factor graph maintenance strategy efficiently addresses issues caused by asynchronous sensor frequencies and partial data loss. Experimental results demonstrate Water-DSLAM achieves superior robustness (0.039&nbsp;m trajectory RMSE and 100% continuity ratio during partial sensor dropout) and dense mapping (6922.4 points/m<sup>3</sup> in 750&nbsp;m<sup>3</sup> water volume, approximately 10 times denser than existing methods) in various challenging environments, including pools, dark underwater scenes, 16-meter-deep sinkholes, and field rivers. This work represents the first complete solution for long-duration underwater robotic dense in-situ observation.
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <!-- End paper abstract -->
 
 
